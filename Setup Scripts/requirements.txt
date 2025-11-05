@@ -1,0 +1,31 @@
+# Core dependencies
+torch>=2.0.0
+pytorch-lightning>=2.0.0
+torchcfm>=1.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+ase>=3.22.0  # Atomic Simulation Environment
+scipy>=1.10.0
+
+# Geometric deep learning
+torch-geometric>=2.3.0
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+
+# Configuration and experiment tracking
+hydra-core>=1.3.0
+omegaconf>=2.3.0
+wandb>=0.15.0  # optional
+
+# Utilities
+tqdm>=4.65.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+
+# For data format handling
+openpyxl>=3.1.0  # Excel files
