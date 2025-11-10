@@ -348,7 +348,7 @@ class XYZDataSplitter:
                     break
         
         if element_groups_csv is None or not Path(element_groups_csv).exists():
-            print("⚠️  WARNING: element_groups.csv not found!")
+            print("WARNING: element_groups.csv not found!")
             print("\nTo use correlation-based splitting:")
             print("  1. Provide correlations.csv (Pearson correlation matrix)")
             print("  2. Run: python scripts/generate_element_groups.py --input correlations.csv")
