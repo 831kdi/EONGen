@@ -1,5 +1,5 @@
 """
-n script for NanoparticleCFM (v6 compatible).
+n script for NanoparticleCFM.
 
 - Reads targets from test_dataset.pkl
 - Generates n_samples per target (batched)
