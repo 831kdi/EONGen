@@ -7,7 +7,7 @@ n script for NanoparticleCFM (v6 compatible).
 - Saves best per target (lowest Kabsch RMSD) to best/{Sym}{N}_best.xyz
 
 Usage:
-    python v6_gen.py \
+    python generate.py \
         --checkpoint checkpoints/best_model.pt \
         --test_data processed_data/test_dataset.pkl \
         --output_dir results/ \
