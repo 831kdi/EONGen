@@ -1,5 +1,5 @@
 """
-Steered generation for EONGen (v7 compatible)
+Steered generation for EONGen
 =====================================================================
 Wraps Euler ODE integration with SMC reweighting to steer generated
 nanoclusters toward a target coordination-number regime.
